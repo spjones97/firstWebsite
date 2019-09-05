@@ -1,0 +1,73 @@
+#header {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 80%;
+    padding: 1em;
+    border: 20px solid black;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: lightgrey;
+    font-style: normal;
+
+}
+
+h1::first-line {
+    font-family: 'Courier New', Courier, monospace color: green;
+    font-style: normal;
+}
+
+body:last-child {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-style: normal;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+ul {
+    font-family: 'Courier New', Courier, monospace list-style-type: upper-roman;
+    background-color: aliceblue;
+    font-style: normal;
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 110%;
+    font-style: normal;
+}
+
+.base_color {
+    color: blue;
+}
+
+b {
+    font-family: 'Courier New', Courier, monospace font-size: 120%;
+    font-style: normal;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover,
+a:focus {
+    color: green;
+}
+
+a:active {
+    color: gold;
+}
